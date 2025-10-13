@@ -1,13 +1,18 @@
 ---
-title: "PR Format instructions for project share (Template)"
+title: "Maker Contest Content Format Template"
 description: "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest"
 category: "Template"
+author: "heltec-author"
 date: "2025-9-23"
 image: "img/01.svg"
 ---
 
 :::tip
-```The above is the Frontmatter content. This part of the content will not be displayed in the main body of the document, but it is very important index information. The content corresponding to the field should be relevant to your project.```
+The above is the `Frontmatter` content. This part of the content will **NOT** be displayed in the main body of the document, but it is very important index information. The content corresponding to the field should be relevant to your project.
+:::
+
+:::note
+In the `Frontmatter` content, the author's name must be the same as the name submitted during registration. This is the unique identifier that matches your article.
 :::
 
 ## Your project title

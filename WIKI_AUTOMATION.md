@@ -36,6 +36,7 @@
    date: "2024-01-20"
    tags: ["tag1", "tag2", "tag3"]
    image: "/img/your-image.svg"
+   author: "author-nick-name"
    ---
    ```
 
@@ -63,12 +64,13 @@ npm run build
 
 | 字段 | 类型 | 必需 | 说明 |
 |------|------|------|------|
-| `title` | string | ✅ | Wiki 标题 |
-| `description` | string | ✅ | Wiki 描述 |
-| `category` | string | ❌ | 分类（默认：Uncategorized） |
-| `date` | string | ✅ | 发布日期（YYYY-MM-DD 格式） |
-| `tags` | array | ❌ | 标签数组 |
-| `image` | string | ❌ | 图片路径（默认：/img/undraw_docusaurus_mountain.svg） |
+| `title` | string | ✅ | Wiki name |
+| `description` | string | ✅ | Wiki descripition |
+| `category` | string | ❌ | category (default：Uncategorized) |
+| `date` | string | ✅ | publish date（YYYY-MM-DD format） |
+| `tags` | array | ❌ | Tag array |
+| `image` | string | ❌ | image path (default：/img/undraw_docusaurus_mountain.svg) |
+| `author` | string | ❌ | Must be consistent with the author name you submitted for registration |
 
 ## 文件结构
 
