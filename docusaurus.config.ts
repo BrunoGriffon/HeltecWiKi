@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Heltec Docs & News',
   // tagline: 'Heltec documents & Projects share',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://heltec.org/wp-content/uploads/2023/11/cropped-logo-tab-192x192.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'Heltec Docs',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://heltec.org/wp-content/uploads/2023/11/cropped-logo-tab-192x192.png',
       },
       items: [
         {
