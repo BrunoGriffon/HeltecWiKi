@@ -8,7 +8,9 @@ image: "img/01.png"
 ---
 
 ![](img/01.png)
-Recently, some users reported concerns about the LoRa 32 V4 receiving sensitivity. We ran a series of controlled tests to validate performance and isolate possible causes. This document provides a detailed breakdown of the test process and technical interpretation.
+Recently, some users have expressed concerns about LoRa 32 V4 receiver sensitivity. Let me tell you the conclusion first: Don't worry, compared with V3, V4 performs better both in receiver and transmission.
+
+This article will demonstrate this through both **communication principles** and **experiments**.
 
 <!-- truncate -->
 
@@ -39,7 +41,9 @@ The values above are typical value. The good news is that the actual SNR limit c
 For example, when the `RSSI(signal) = -130dBm` and the `RSSI(noise) < -110dBm`, and the `SNR < -20 dB`, now the signal can still be received and decoded.
 
 <span style={{ color: 'yellow' }}>
-**In conclusion, when evaluating reception quality, you can not rely solely on RSSI value. When SNR is positive, RSSI is meaningful; when SNR is negative, SNR data becomes more critical.**
+**In conclusion, when evaluating reception quality, you can not rely solely on RSSI value.**
+- **When `SNR > 0`, RSSI is meaningful;**
+- **When `SNR < 0`, SNR data becomes more critical.**
 </span>
 
 ### Lets's return to this topic
