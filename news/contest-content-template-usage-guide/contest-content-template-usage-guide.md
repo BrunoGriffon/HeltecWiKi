@@ -4,7 +4,7 @@ description: "How to Use the Contest Content Template"
 category: "Contest"
 date: "2025-9-23"
 tags: ["heltec", "maker", "contest"]
-image: "/img/undraw_docusaurus_react.svg"
+image: "img/template.jpg"
 ---
 
 ### Step 1

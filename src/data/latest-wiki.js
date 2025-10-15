@@ -1,8 +1,8 @@
-// Auto-generated Wiki data - Last updated: 2025-10-11T07:40:36.353Z
+// Auto-generated Wiki data - Last updated: 2025-10-15T07:06:59.994Z
 export const latestWikiData = [
   {
-    "id": 2,
-    "title": "2025 Heltec Maker Contest (Sticky)",
+    "id": 1,
+    "title": "2025 Heltec Maker Contest (Pinned)",
     "description": "The 2025 Heltec Maker Challenge is here—our very first global maker contest!",
     "category": "IoT",
     "date": "2025-9-18",
@@ -16,12 +16,23 @@ export const latestWikiData = [
     "pinned": true
   },
   {
+    "id": 5,
+    "title": "LoRa 32 V4 receiver sensitivity issue discussed",
+    "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
+    "category": "Template",
+    "date": "2025-10-15",
+    "image": "/news-assets/v4-receive-sensitivity/v4-receive-sensitivity/01.png",
+    "slug": "/news/v4-receive-sensitivity/v4-receive-sensitivity",
+    "tags": [],
+    "pinned": false
+  },
+  {
     "id": 4,
     "title": "Contest Content Template Usage Guide",
     "description": "How to Use the Contest Content Template",
     "category": "Contest",
     "date": "2025-9-23",
-    "image": "/img/main-img/template.jpg",
+    "image": "/news-assets/contest-content-template-usage-guide/contest-content-template-usage-guide/template.jpg",
     "slug": "/news/contest-content-template-usage-guide/contest-content-template-usage-guide",
     "tags": [
       "heltec",
@@ -32,7 +43,7 @@ export const latestWikiData = [
   },
   {
     "id": 3,
-    "title": "PR Format instructions for project share (Template)",
+    "title": "Maker Contest Content Format Template",
     "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
     "category": "Template",
     "date": "2025-9-23",
@@ -42,13 +53,13 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "2025 Heltec Maker Contest Privacy Policy",
     "description": "2025 Heltec Maker Contest Privacy Policy",
     "category": "IoT",
     "date": "2025-9-22",
-    "image": "/img/main-img/Privacy Policy.jpg",
-    "slug": "/news/2025-Heltec-Maker-Contest-Privacy-Policy",
+    "image": "/news-assets/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy/policy.jpg",
+    "slug": "/news/2025-heltec-maker-contest-privacy-policy/2025-heltec-maker-contest-privacy-policy",
     "tags": [
       "heltec",
       "maker",
