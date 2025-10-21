@@ -3,9 +3,30 @@ sidebar_position: 1
 title: Usage Guide
 ---
 
-# HT-H7608 Get Started
 
-### Hardware connection
+# Getting Started
+
+## H7608 LED Indicator Description
+**The description may vary depending on the firmware version.**
+
+| **LED Indicator**                   | **Description**                                         |
+| ----------------------------------- | ------------------------------------------------------- |
+| 🔴 **Red (blinking)**               | Device is booting                                       |
+| 🔴 **Red (steady on)**              | Button pressed                                          |
+| 🟡 **Yellow (steady on, 3s hold)**  | Enter configuration mode                                |
+| ⚪ **White (steady on, 7s hold)**    | Restore factory settings                                |
+| 🟢🟡 **Green & Yellow alternating** | Configuration mode (WiFi + Ethernet)                    |
+| 🔵🟡 **Blue & Yellow alternating**  | Configuration mode (WiFi + USB)                         |
+| 🟢 **Green (blinking)**             | STA mode using Ethernet, HaLow not connected            |
+| 🟢 **Green (steady on)**            | STA mode using Ethernet, HaLow connected successfully   |
+| 🔵 **Blue (blinking)**              | STA mode using USB, HaLow not connected                 |
+| 🔵 **Blue (steady on)**             | STA mode using USB, HaLow connected successfully        |
+| 🩵 **Cyan (blinking)**              | AP mode using Ethernet, network input not connected     |
+| 🩵 **Cyan (steady on)**             | AP (Ethernet) — Network connected                       |
+| 🟣 **Purple (blinking)**            | AP mode using USB, network input not connected          |
+| 🟣 **Purple (steady on)**           | AP mode using USB, network input connected successfully |
+
+## Hardware connection
 
 Connect the device power, the device RGB light is red, indicating that the device is starting, which takes about 1~2 minutes.
 
@@ -13,7 +34,7 @@ Connect the device power, the device RGB light is red, indicating that the devic
 
 
 
-### First Enter Configuration Page
+## First Enter Configuration Page
 
 After the initial power-on, when the device's red light turns off and transitions to a state of alternating yellow and green blinking, it indicates that the device has successfully booted up and entered configuration mode.
 

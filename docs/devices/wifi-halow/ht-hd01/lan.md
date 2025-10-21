@@ -10,7 +10,7 @@ title: Building Local Area Network
 Here are some key tips to help you achieve more networking configurations:
 - All connected devices must obtain IP addresses from the same device, regardless of the network type they are connected to.
 - Bridge mode does not handle IP assignment, whether on the AP or STA side. The responsibility for IP allocation lies with the higher-level device.
-- In the HD01 configuration page diagram, you can see IP addresses are connected, .
+- In the HD01 configuration page diagram, you can see IP addresses are connected.
 
 ## Common Examples
 ### Example 1: LAN without Router
@@ -28,7 +28,6 @@ A common method is to set the AP to None mode and the STA to BRIDGE mode. By
     When configuring the STA side, set its **Traffic Mode** to **Bridge**.<br />If you are unsure how to configure STA mode, please refer to this link:
     [STA Setup Guide](/docs/devices/wifi-halow/ht-hd01/ap?ap=sta)
 
------------------------------------
 
 ## Related Links
 - [Access Configuration Page](/docs/devices/wifi-halow/ht-hd01/access_configuration_page)

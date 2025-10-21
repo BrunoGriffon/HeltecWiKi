@@ -296,7 +296,7 @@ function TechSupport() {
           <div className="col col--6">
             <div className={styles.supportImage}>
               <img
-                src="/img/main-img/support.webp"
+                src="/img/main-img/support.jpg"
                 alt="Technical Support"
               />
             </div>

@@ -1,5 +1,7 @@
-
-# Wi-Fi HaLow Client(STA) Mode
+---
+sidebar_position: 5
+title: Wi-Fi HaLow Client(STA) Mode
+---
 
 
 This topic introduces the setup and activation of Wi-Fi HaLow Client(STA) mode.

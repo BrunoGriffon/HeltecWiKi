@@ -1,9 +1,29 @@
 ---
 sidebar_position: 1
-title: HaLow Dongle Quick Start
+title: Usage Guide
 ---
 
+# Getting Start
 
+## HD01 LED Indicator Description
+**The description may vary depending on the firmware version.**
+
+| **LED Indicator**                   | **Description**                                         |
+| ----------------------------------- | ------------------------------------------------------- |
+| 🔴 **Red (blinking)**               | Device is booting                                       |
+| 🔴 **Red (steady on)**              | Button pressed                                          |
+| 🟡 **Yellow (steady on, 3s hold)**  | Enter configuration mode                                |
+| ⚪ **White (steady on, 7s hold)**    | Restore factory settings                                |
+| 🟢🟡 **Green & Yellow alternating** | Configuration mode (WiFi + Ethernet)                    |
+| 🔵🟡 **Blue & Yellow alternating**  | Configuration mode (WiFi + USB)                         |
+| 🟢 **Green (blinking)**             | STA mode using Ethernet, HaLow not connected            |
+| 🟢 **Green (steady on)**            | STA mode using Ethernet, HaLow connected successfully   |
+| 🔵 **Blue (blinking)**              | STA mode using USB, HaLow not connected                 |
+| 🔵 **Blue (steady on)**             | STA mode using USB, HaLow connected successfully        |
+| 🩵 **Cyan (blinking)**              | AP mode using Ethernet, network input not connected     |
+| 🩵 **Cyan (steady on)**             | AP (Ethernet) — Network connected                       |
+| 🟣 **Purple (blinking)**            | AP mode using USB, network input not connected          |
+| 🟣 **Purple (steady on)**           | AP mode using USB, network input connected successfully |
 
 ## Overview
 We have provided a plug-and-play mode for the HT-HD01 to help you get started more quickly. The devices are pre-paired at the factory, and you can use them directly without any configuration. 
@@ -43,7 +63,7 @@ Power on the Dongle-STA. When the device's red light changes to **blue/green** a
 ![](img/12.jpg)
 
 :::note
-If your STA device is no longer paired with the AP, you need to reconfigure the STA. Please refer to the ["Dongle STA Setup Guide"](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/sta.html).
+If your STA device is no longer paired with the AP, you need to reconfigure the STA. Please refer to the ["Dongle STA Setup Guide"](/docs/devices/wifi-halow/ht-hd01/ap?ap=sta).
 :::
 
 
@@ -70,28 +90,6 @@ Detailed mode guides are available below:
 
 - [Access-AP Mode(Includes Point-to-Point and Point-to-Multipoint topologies)](/docs/devices/wifi-halow/ht-hd01/ap)
 - [Mesh Mode(Self-configuring node network)](/docs/devices/wifi-halow/ht-hd01/meshgate)
-
-
-## RGB Indicator
-**The description may vary depending on the firmware version.**
-
-| Color   | State        | Description                                                                 |
-|---------|--------------|-----------------------------------------------------------------------------|
-| Red     | Fast blink   | Device booting                                                              |
-| Red     | Solid        | Device starting up                                                          |
-| Red     | Blink once   | Button pressed                                                              |
-| Cyan    | Fast blink   | AP/Mesh_gate device connecting to upstream network via RJ45/Wi-Fi           |
-| Cyan    | Solid        | AP/Mesh_gate device successfully obtained upstream IP via RJ45/Wi-Fi        |
-| Purple  | Fast blink   | AP/Mesh_gate device connecting to upstream network via USB-C                 |
-| Purple  | Solid        | AP/Mesh_gate device successfully obtained upstream IP via USB-C              |
-| Green   | Fast blink   | STA/Mesh_point device connecting to upstream network via RJ45/Wi-Fi          |
-| Green   | Solid        | STA/Mesh_point device successfully obtained upstream IP via RJ45/Wi-Fi       |
-| Blue    | Fast blink   | STA/Mesh_point device connecting to upstream network via USB-C               |
-| Blue    | Solid        | STA/Mesh_point device successfully obtained upstream IP via USB-C            |
-| Yellow / Others | Alternating blink | Entering configuration mode                                     |
-| White   | 3 seconds    | Factory reset                                                               |
-   
-
 
 
 ## View and Modify the SSID and Password
@@ -121,8 +119,3 @@ In this mode, all existing configurations on the device are completely erased. Y
 4. By adhering to the instructions and prompts available on the configuration interface, each stage of the process can be executed methodically.
 
 
-## Related Links
-- [Wi-Fi HaLow general user guide](/docs/devices/wifi-halow/ht-hd01/quick_started)
-- [HT-H7608 Wi-Fi HaLow Gateway](/docs/devices/wifi-halow/ht-h7608/)
-- Technical Support: support@heltec.cn
-- [HD01 Resource station](https://resource.heltec.cn/download/HT-HD01)

@@ -21,3 +21,21 @@ title: OTA Upgrade Procedure
 4. Select whether to **"keep settings and retain the current"** configurations
 
 ![](img/24.jpg)
+
+:::note
+Ensure network and power stability during firmware upgrade.
+:::
+
+Firmware Version Update
+HT-HD01 Firmware Version 2.6.6-20250605 update:
+
+- Add Mesh mode
+- Press the button to change from purple to red.
+- In AP and MeshGateway modes, the ETH indicator light for network usage is changed to green, and the USB indicator light for network usage is changed to purple.
+
+HT-HD01 V1 Firmware Version 2.8.5-20250807 update:
+- Added support for enabling the HaLow AP function in HaLow Mesh mode, allowing STA devices to connect to Mesh nodes.
+- `Dynamic Channel` Selectionis is enabled by default.
+
+HT-HD01 V1 and HT-HD01 V2 Firmware Version 2.8.5-20250924 update:
+- Fixed a bug where devices kept rebooting after enabling the HaLow AP function in HaLow Mesh mode.
