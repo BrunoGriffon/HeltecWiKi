@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 7
 title: WiFi LoRa 32 V4
 ---
 

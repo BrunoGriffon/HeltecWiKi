@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Frequently Asked Questions
 ---
 # WiFi LoRa 32 Frequently Asked Questions
