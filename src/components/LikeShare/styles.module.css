@@ -17,7 +17,7 @@
     background: var(--ifm-background-surface-color);
     cursor: pointer;
     font-weight: 600;
-    color: #ffffff;
+    color: var(--ifm-color-emphasis-200);
     transition: transform .05s ease, background .2s ease, border-color .2s ease;
 }
 
@@ -29,7 +29,7 @@
 
 .btnActive {
     background: var(--ifm-color-primary);
-    color: #ffffff;
+    color: var(--ifm-color-emphasis-200);
     border-color: var(--ifm-color-primary);
 }
 
