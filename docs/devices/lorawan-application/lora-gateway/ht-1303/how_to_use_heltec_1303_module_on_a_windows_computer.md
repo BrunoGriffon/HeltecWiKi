@@ -1,4 +1,8 @@
-# How to Use Heltec 1303 Module on a Windows computer
+---
+sidebar_position: 3
+title: How to Use Heltec 1303 Module on a Windows computer
+---
+
 
 ## Significance
 

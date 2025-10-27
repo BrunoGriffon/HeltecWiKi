@@ -1,4 +1,9 @@
-# LoRa Basics™ Station
+---
+sidebar_position: 2
+title: LoRa Basics™ Station
+---
+
+
 The LoRa Basics™ Station protocol simplifies management of large scale LoRaWAN® networks. LoRa Basics™ Station is the preferred way of connecting Gateways to The Things Stack.
 ## Upgrade firmware
 

@@ -1,4 +1,10 @@
-# MQTT Function
+---
+sidebar_position: 2
+title: MQTT Function
+
+---
+
+
 
 
 This document describes how to use the MQTT capabilities of the HT-M7603.

@@ -1,12 +1,23 @@
 ---
 sidebar_position: 4
-title: HT-M01S-V2 Indoor LoRa Gateway 
+title: HT M01S V2 Indoor LoRa Gateway 
 ---
 
-HT-M01S (Rev. 2.0)
+import styles from '@site/src/css/styles.module.css';
 
-HT-M01S (Rev. 2.0) is positioned as a low-cost standard gateway for indoor use. LoRa part based on the SX1303 + 1250 structure,  we innovatively use ESP32 as the main control chip, and completely transplant the hardware driver, data forwarding and message queue of SX1303 to the ESP32 platform. There is no need to run the Linux operating system separately. It is simpler and more convenient to use.
-HT-M01S (Rev. 2.0) has basic mechanical protection and dustproof structure, but does not have waterproof performance. It can be connected to the cloud server via Wi-Fi or Ethernet, can be powered by Type-C_5V, and has a 1.8-inch TFT display under the tempered glass panel. It is very suitable for deployment in factories, warehouses, homes and other indoor environments that can provide power and network.
+<div style={{ textAlign: 'center' }}>
+  ![](img/1.png)
+</div>
+
+HT-M01S (Rev. 2.0) is a low-cost indoor LoRa gateway based on the SX1303 + SX1250 structure and powered by an ESP32 main chip, eliminating the need for a separate Linux system. It supports Wi-Fi and Ethernet connections, is powered via Type-C 5V, and features a 1.8-inch TFT display. With basic dust protection and a compact design, it’s ideal for factories, warehouses, and home environments.
+
+{<div className={styles.btnContainer}>
+  <a href="https://heltec.org/project/ht-m01s-v2/" className={styles.btnLink1}>
+    Product Page
+  </a>
+</div>}
+
+## Product characteristicss
 
 -  SX1303 baseband chip
 -  LoRaWAN protocol 1.0.2 Class A, Class C support
@@ -14,4 +25,8 @@ HT-M01S (Rev. 2.0) has basic mechanical protection and dustproof structure, but 
 -  Support Type-C_5V power supply
 -  Onboard 1.8-inch TFT display
 
+## Important Guide
+- [Datasheet](https://resource.heltec.cn/download/HT-M01S_V2/HT-M01S-V2(V1.1).pdf)
+- [Usage Guide](/docs/devices/lorawan-application/lora-gateway/ht-m01s_v2/quick_start)
+- [Firmware Upgrade](/docs/devices/lorawan-application/lora-gateway/ht-m01s_v2/update_firmware)
 

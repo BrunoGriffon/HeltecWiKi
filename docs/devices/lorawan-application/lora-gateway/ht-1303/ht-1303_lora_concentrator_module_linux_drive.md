@@ -1,4 +1,9 @@
-# HT-1303 LoRa Concentrator Module Linux Drive
+---
+sidebar_position: 2
+title: HT 1303 LoRa Concentrator Module Linux Drive
+---
+
+
 
 This document is trying to make sense how to drive a  HT-1303 (SX1303 + SX1250) module on Linux. before all the operation you may need basic knowledge of Linux operation system. [this document](/docs/devices/general-docs/how_to_config_raspberry_pi) is a basic manual of Raspberry Pi.
 

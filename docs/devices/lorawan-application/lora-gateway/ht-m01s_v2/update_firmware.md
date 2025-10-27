@@ -1,4 +1,9 @@
-# Firmware Upgrade
+---
+sidebar_position: 2
+title: Firmware Upgrade
+---
+
+
 
 ## Summary
 

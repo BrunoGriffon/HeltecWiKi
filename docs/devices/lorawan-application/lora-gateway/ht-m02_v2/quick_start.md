@@ -1,4 +1,8 @@
-#  Quick Start
+---
+sidebar_position: 1
+title: Usage Guide
+---
+
 ## Summary
 
 HT-M02_V2 has integrated operating system and LoRa related programs, so it can be used directly in applications.  HT-M02_V2  has multiple optional versions, the main difference is the networking mode and power supply mode. The power supply mode is divided into POE mode and 12V DC mode. Different network modes have different gateway configuration methods. Please refer to the corresponding version for specific configuration methods.
