@@ -100,6 +100,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
