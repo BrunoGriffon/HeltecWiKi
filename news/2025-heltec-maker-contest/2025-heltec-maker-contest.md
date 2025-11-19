@@ -15,7 +15,7 @@ If you've got a brilliant idea, a fascinating discovery, or an interesting setup
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/watch?v=_eyiT6yL3j8"
+  src="https://www.youtube.com/embed/_eyiT6yL3j8"
   title="2025 Heltec Maker Contest"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
