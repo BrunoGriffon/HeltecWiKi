@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2025-11-20T11:13:44.268Z
+// Auto-generated Wiki data - Last updated: 2025-11-25T06:34:25.326Z
 export const latestWikiData = [
   {
     "id": 1,
@@ -16,7 +16,18 @@ export const latestWikiData = [
     "pinned": true
   },
   {
-    "id": 6,
+    "id": 3,
+    "title": "Building a life line in the storm",
+    "description": "**Heltec Devices Excel in Large-Scale Test of La Réunion's Gaulix Resilience Network**",
+    "category": "news",
+    "date": "2025-11-25",
+    "image": "/news-assets/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm/1.jpg",
+    "slug": "/news/building-a-lifeline-in-the-storm/building-a-life-line-in-the-storm",
+    "tags": [],
+    "pinned": false
+  },
+  {
+    "id": 7,
     "title": "🦃 Happy Thanksgiving from Heltec! 🍁",
     "description": "This Thanksgiving, we want to express our heartfelt gratitude to all our amazing customers and community members.",
     "category": "news",
@@ -27,7 +38,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Heltec Visits Maker Faire Shenzhen 2025",
     "description": "**Heltec Visits Maker Faire Shenzhen 2025 — Exploring the Future of Integrated Technology**",
     "category": "news",
@@ -38,7 +49,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "HC-02 Wi-Fi HaLow Module",
     "description": "Pioneering a New Era of Long-Range, High-Speed Wireless Connectivity for IoT",
     "category": "technical",
@@ -49,7 +60,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "IEEE WF IoT 2025 Smart and Sustainable",
     "description": "IEEE WF IoT 2025 Smart and Sustainable",
     "category": "news",
@@ -60,7 +71,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Maker Faire Rome whit Heltec Automation",
     "description": "Maker Faire Rome whit Heltec Automation",
     "category": "news",
@@ -71,7 +82,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
@@ -82,7 +93,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Contest Content Template Usage Guide",
     "description": "How to Use the Contest Content Template",
     "category": "contest",
@@ -97,7 +108,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Maker Contest Content Format Template",
     "description": "Formatting Instructions for Documents Submitted for the 2025 Heltec Maker Contest",
     "category": "template",
