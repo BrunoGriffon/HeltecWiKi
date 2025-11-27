@@ -1,4 +1,4 @@
-// Auto-generated Wiki data - Last updated: 2025-11-25T06:34:25.326Z
+// Auto-generated Wiki data - Last updated: 2025-11-27T06:22:35.375Z
 export const latestWikiData = [
   {
     "id": 1,
@@ -14,6 +14,17 @@ export const latestWikiData = [
       "contest"
     ],
     "pinned": true
+  },
+  {
+    "id": 10,
+    "title": "LoRa Tracking in the Mountains",
+    "description": "How We Tracked Paragliders Without Cellular Coverage",
+    "category": "news",
+    "date": "2025-11-27",
+    "image": "/news-assets/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains/5.png",
+    "slug": "/news/lora-tracking-in-the-mountains/lora-tracking-in-the-mountains",
+    "tags": [],
+    "pinned": false
   },
   {
     "id": 3,
@@ -71,7 +82,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Maker Faire Rome whit Heltec Automation",
     "description": "Maker Faire Rome whit Heltec Automation",
     "category": "news",
@@ -82,7 +93,7 @@ export const latestWikiData = [
     "pinned": false
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "LoRa 32 V4 receiver sensitivity issue discussed",
     "description": "LoRa 32 V4 receiver sensitivity issue discussed",
     "category": "technical",
