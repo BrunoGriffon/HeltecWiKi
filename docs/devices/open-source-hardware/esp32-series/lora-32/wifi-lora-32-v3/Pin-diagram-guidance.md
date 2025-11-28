@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: GPIO Usage and Design Guidelines
+title: GPIO Usage Guide
 ---
 
 This document explains how to properly understand and use GPIO pins on the  
