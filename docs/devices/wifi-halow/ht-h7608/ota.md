@@ -20,7 +20,7 @@ title: OTA Upgrade Procedure
 
 ![](img/ota/3.jpg)
 
-:::note
+:::danger
 Ensure network and power stability during firmware upgrade.
 :::
 
