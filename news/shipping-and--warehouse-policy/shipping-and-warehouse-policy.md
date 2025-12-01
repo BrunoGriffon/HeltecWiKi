@@ -95,10 +95,7 @@ We utilize various carriers to ensure global reach and cost efficiency. Shipping
 :::note
 All channels and platforms listed above refer to orders placed directly operated stores, and not through any third-party resellers or agents.
 :::
-
-
-
-
+---
 
 
 We reserve the right to update or revise this Shipping & Warehouse Policy at any time to reflect changes in our operations, shipping practices, carrier requirements, or applicable laws and regulations. The latest version will always be posted on this page, and continued use of our website after any updates constitutes your acceptance of the revised policy.
@@ -109,5 +106,5 @@ Last Updated: Dec 2025
 
 
 
----
+
 
