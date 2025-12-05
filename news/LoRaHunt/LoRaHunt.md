@@ -51,7 +51,7 @@ The base station runs on the same hardware as the trap detectors, except for an 
 
 LoRa technology enables amazing radio ranges. However, the traps are usually located on the ground in dense vegetation. This limits the range, especially since a maximum transmission power of only 21 dBm is permitted in the ISM 868 MHz band in Europe. However, our hunting ground covers several square kilometers. We have therefore set up a number of repeaters. In a repeater, the ESP32 is activated by the SX1262 LoRa chip as soon as it receives data from a trap detector or the base station. The data is then forwarded and ESP32 goes to sleep again.
 
-![image info](img/repeaters.jpg)
+![image info](img/Repeaters.jpg)
 
 The hardware of a repeater is again the same as that of a trap detector. However it has got the same antenna as the base station and the power supply is provided by a [**solar panel**](https://de.aliexpress.com/item/1005006466633406.html), as the power consumption is higher than that of a trap detector.
 
