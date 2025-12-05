@@ -17,30 +17,30 @@ Hunters don't just hunt, they are also active conservationists. In our hunting g
 
 ![image info](img/Animals.jpg)
 
-Therefore, we decided to set up live traps in our hunting grounds to get an overview of the raccoon population. To avoid unnecessary suffering of the animals, each trap must be checked twice a day or there must be electronic monitoring to see if the trap has been triggered. This is required by law.  But, visiting a dozen traps twice per day is not an option. There are commercial trap alarms for electronic monitoring. But they are expensive to purchase and incur monthly costs for sending messages via mobile phone network.
+Therefore, we decided to set up live traps in our hunting grounds to get an overview of the raccoon population. To avoid unnecessary suffering of the animals, each trap must be checked twice a day or there must be electronic monitoring to see if the trap has been triggered. This is required by law.  But, visiting a dozen traps twice per day is not an option. There are commercial trap detectors for electronic monitoring. But they are expensive to purchase and incur monthly costs for sending messages via mobile phone network.
 
-This was the idea behind LoRaHunt. LoRaHunt uses free LoRa radio technology to send the trap detector data to a central base connected to the internet, which then forwards the messages via WhatsApp and email. The trap detectors are significantly cheaper than trap detectors with mobile phone technology and there are no recurring costs.
+This was the idea behind LoRaHunt. LoRaHunt uses free LoRa radio technology to send the trap detector data to a central base station connected to the internet, which then forwards the messages via WhatsApp and email. The trap detectors are significantly cheaper than trap detectors with mobile phone technology and there are no recurring costs.
 
 ## LoRaHunt Components
 
 Our LoRaHunt installation consists of three components:
 
-+ Trap Detectors at every live trap 
++ Trap detectors at every live trap 
 + A base station to alert users and manage the trap detectors  
 + Optional repeaters to increase the network coverage 
 
-### Trap Detectora
+### Trap Detector
 
 ![image info](img/TrapDetector.jpg)
 
-Each live trap is equipped with a LoRahunt trap detector. The main component is [**Heltec's WiFi LoRa 32(V3) board**](https://heltec.org/project/wifi-lora-32-v3/) in a [**waterproof housing**](https://de.aliexpress.com/item/1005007992259939.html). Power is supplied by four [**18650 lithium-ion**](https://de.aliexpress.com/item/32810182330.html) cells. This is sufficient for up to three months of battery life. The ESP32 is in deep sleep most of the time and is awakened by dragging away a magnet from [**reed proximity switch**](https://de.aliexpress.com/item/1005004517568686.html) when the trap is triggered. The ESP32 then sends its data and waits for confirmation by the base station. In addition, it wakes up twice a day via a timer and sends a ping. This serves to check whether it is still functioning and replaces the legally required manual inspection of the trap.
-Another [**reed switch**](https://de.aliexpress.com/item/1005007039328744.html) can be used to wake up the trap alarm and then test the connection to the base station via WiFi hotspot, change settings, or update the firmware over the air.
+Each live trap is equipped with a LoRahunt trap detector. The main component is [**Heltec's WiFi LoRa 32(V3) board**](https://heltec.org/project/wifi-lora-32-v3/) in a [**waterproof housing**](https://de.aliexpress.com/item/1005007992259939.html). Power is supplied by four [**18650 lithium-ion**](https://de.aliexpress.com/item/32810182330.html) cells. This is sufficient for up to three months of battery life. The ESP32 is in deep sleep most of the time and is awakened by dragging away a magnet from a [**reed proximity switch**](https://de.aliexpress.com/item/1005004517568686.html) when the trap is triggered. The ESP32 then sends its data and waits for confirmation by the base station. In addition, it wakes up twice a day via a timer and sends a ping. This serves to check whether it is still functioning and replaces the legally required manual inspection of the trap.
+Another [**reed switch**](https://de.aliexpress.com/item/1005007039328744.html) can be used to wake up the trap detector to open up a Wifi hotspot  and then test the connection to the base station, change settings, or update the firmware over the air.
 
 ![image info](img/TrapDetectorUI.jpg)
 
-###Base Station
+### Base Station
 
-The base station receives data from the trap detectors and forwards it to users via WhatsApp and email. To do so, it connects to a nearby hotspot via Wi-Fi. When a trap detector reports, it sends back a confirmation of when the trap detector should wake up from deep sleep and report its status again. At the same time, it monitors the status reports and alerts users if a trap detector fails to report its status.
+The base station receives data from the trap detectors and forwards it to users via WhatsApp and email. To do so, it connects to a nearby Wifi network. When a trap detector reports, it sends back a confirmation of when the trap detector should wake up from deep sleep and report its status again. Furthermore, it monitors the status reports and alerts users if a trap detector fails to report its status in time.
 
 ![image info](img/BaseStation.jpg)
 
@@ -49,7 +49,7 @@ The base station runs on the same hardware as the trap detectors, except for an 
 
 ### Repeater
 
-LoRa technology enables amazing radio ranges. However, the traps are usually located on the ground in dense forest. This limits the range, especially since a maximum transmission power of only 21 dBm is permitted in the ISM 868 MHz band in Europe. However, our hunting ground covers several square kilometers. We have therefore set up a number of repeaters. In a repeater, the ESP32 is activated by the SX1262 LoRa chip as soon as it receives data from a trap alarm or the base station. The data is then forwarded. 
+LoRa technology enables amazing radio ranges. However, the traps are usually located on the ground in dense vegetation. This limits the range, especially since a maximum transmission power of only 21 dBm is permitted in the ISM 868 MHz band in Europe. However, our hunting ground covers several square kilometers. We have therefore set up a number of repeaters. In a repeater, the ESP32 is activated by the SX1262 LoRa chip as soon as it receives data from a trap detector or the base station. The data is then forwarded and ESP32 goes to sleep again.
 
 ![image info](img/repeaters.jpg)
 
