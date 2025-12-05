@@ -40,7 +40,7 @@ Another [**reed switch**](https://de.aliexpress.com/item/1005007039328744.html) 
 
 ### Base Station
 
-The base station receives data from the trap detectors and forwards it to users via WhatsApp and email. To do so, it connects to a nearby Wifi network. When a trap detector reports, it sends back a confirmation of when the trap detector should wake up from deep sleep and report its status again. Furthermore, it monitors the status reports and alerts users if a trap detector fails to report its status in time.
+The base station receives data from the trap detectors and forwards it to users via WhatsApp and email. To do so, it connects to a nearby Wifi network. When a trap detector reports, it sends back a confirmation of when the trap detector should wake up from deep sleep and report its status again. Furthermore, it monitors the status reports and alerts users if a trap detector fails to report its status in time or if a trap detector is in need of recharging its batteries.
 
 ![image info](img/BaseStation.jpg)
 
